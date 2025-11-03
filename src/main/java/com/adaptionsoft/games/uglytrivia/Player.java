@@ -43,9 +43,6 @@ public class Player {
         this.purses++;
     }
 
-    /**
-     * Przesuwa gracza i obsługuje zawijanie się planszy.
-     */
     public void move(int roll, int boardSize) {
         this.place += roll;
         if (this.place >= boardSize) {
